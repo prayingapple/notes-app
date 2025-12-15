@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Go
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+/go.work
+/go.work.sum
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Env
+.env
+.env.*
