@@ -34,3 +34,9 @@ The frontend calls the backend via Vite proxy (`/api` -> `http://localhost:8080`
 - `GET /api/notes/:id`
 - `PUT /api/notes/:id` body: `{ "title"?: string, "content"?: string }`
 - `DELETE /api/notes/:id`
+
+## Test
+```sh
+cd backend
+go test ./domain/items
+```
